@@ -1,15 +1,15 @@
 import * as React from "react"
 import Header from "../components/header";
 
-const IndexPage = () => {
+const CatalogPage = () => {
     return (
         <main>
             <Header/>
-            HOME
+            CATALOG
         </main>
     )
 }
 
-export default IndexPage
+export default CatalogPage
 
 export const Head = () => <title>Fast DJI - интернет магазин продукции DJI</title>
